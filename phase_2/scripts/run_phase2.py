@@ -131,9 +131,12 @@ def main():
         for i, (chunk_id, distance, doc) in enumerate(zip(results['ids'], results['distances'], results['documents'])):
             similarity = 1 - distance  # Convert distance to similarity (for L2)
             print(f"  {i+1}. [{chunk_id}] (similarity: {similarity:.3f})")
-            # Handle Unicode characters in console output
-            doc_preview = doc[:100].encode('utf-8', errors='ignore').decode('utf-8', errors='ignore')
-            print(f"     {doc_preview}...")
+            # Print first 100 chars, handling Unicode safely
+            try:
+                doc_preview = doc[:100]
+                print(f"     {doc_preview}...")
+            except:
+                print(f"     {doc[:100].encode('ascii', errors='ignore').decode('ascii')}...")
     
     print()
     

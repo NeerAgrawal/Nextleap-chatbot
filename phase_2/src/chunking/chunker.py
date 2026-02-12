@@ -138,6 +138,10 @@ class TextChunker:
             details = general_data['program_details']
             content_parts = ["Program Details:"]
             
+            if details.get('course_name'):
+                content_parts.append(f"Course Name: {details['course_name']}")
+            if details.get('provider'):
+                content_parts.append(f"Provider: {details['provider']}")
             if details.get('total_hours'):
                 content_parts.append(f"Duration: {details['total_hours']}")
             if details.get('duration_months'):
