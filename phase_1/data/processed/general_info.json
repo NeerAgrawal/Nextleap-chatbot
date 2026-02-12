@@ -1,0 +1,26 @@
+{
+  "program_details": {
+    "total_hours": "100+ hours",
+    "duration_months": "4 months",
+    "duration_weeks": "16 weeks",
+    "format": "Live online classes"
+  },
+  "schedule": {
+    "saturday_morning": "10:30 AM - 12:30 PM IST",
+    "saturday_afternoon": "2:00 PM - 4:00 PM IST",
+    "sunday_mentor_session": "10:30 AM - 12:30 PM IST",
+    "sunday_case_hours": "2:00 PM - 4:00 PM IST",
+    "wednesday_challenge": "8:00 PM - 10:00 PM IST"
+  },
+  "cost": {
+    "course_fee": "₹35,999"
+  },
+  "cohort": {
+    "cohort_number": 47,
+    "start_date": "Mar 7"
+  },
+  "support": {
+    "mentorship": "Experienced PMs from top companies",
+    "placement_support": "1 year placement support"
+  }
+}

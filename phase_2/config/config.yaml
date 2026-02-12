@@ -1,0 +1,18 @@
+embedding:
+  model_name: "all-MiniLM-L6-v2"
+  batch_size: 32
+  normalize: true
+
+chunking:
+  curriculum_chunk_size: 500
+  overlap: 50
+
+vector_db:
+  collection_name: "nextleap_course_v1"
+  persist_directory: "database/chroma_db"
+
+metadata_db:
+  path: "database/metadata.db"
+
+phase1:
+  data_path: "../phase_1/data/processed"

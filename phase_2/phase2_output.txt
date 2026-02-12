@@ -1,0 +1,133 @@
+﻿
+======================================================================
+ PHASE 2: EMBEDDING GENERATION & VECTOR STORAGE
+======================================================================
+
+Step 1: Loading Phase 1 data and creating chunks...
+----------------------------------------------------------------------
+[INFO] Created 13 curriculum chunks
+[INFO] Created 8 instructor chunks
+[INFO] Created 5 tool chunks
+[INFO] Created 5 general info chunks
+
+[SUCCESS] Total chunks created: 31
+[OK] Saved 31 chunks to C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\data\chunks\all_chunks.json
+
+Step 2: Generating embeddings...
+----------------------------------------------------------------------
+[INFO] Loading embedding model: all-MiniLM-L6-v2
+[OK] Model loaded successfully
+[INFO] Generating embeddings for 31 texts...
+python : 
+At line:1 char:1
++ python scripts\run_phase2.py 2>&1 | Out-File -Encoding utf8 phase2_ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches: 100%|##########| 1/1 [00:01<00:00,  1.93s/it]
+Batches: 100%|##########| 1/1 [00:01<00:00,  1.93s/it]
+[OK] Generated embeddings with shape: (31, 384)
+[INFO] Embedding dimension: 384
+
+Step 3: Storing embeddings in FAISS...
+----------------------------------------------------------------------
+[INFO] Initializing FAISS vector store...
+[INFO] Persist directory: C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\database\vector_db
+[INFO] Loading existing FAISS index from C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\database\vector_db\nextleap_course_v1.index
+[OK] Loaded index with 31 vectors
+[OK] FAISS vector store initialized
+[INFO] Collection already has 31 items. Clearing...
+[INFO] Collection nextleap_course_v1 cleared
+
+[INFO] Adding 31 chunks to FAISS...
+[INFO] Created FAISS index with dimension 384
+[OK] Saved FAISS index to C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\database\vector_db\nextleap_course_v1.index
+[OK] Successfully added 31 chunks to FAISS
+[INFO] Total vectors in index: 31
+[INFO] FAISS stats: {'collection_name': 'nextleap_course_v1', 'total_chunks': 31, 'dimension': 384}
+
+Step 4: Storing metadata in SQLite...
+----------------------------------------------------------------------
+[INFO] Initializing SQLite metadata store: C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\database\metadata.db
+[OK] Metadata store initialized
+
+[INFO] Adding 31 chunks to SQLite...
+[OK] Successfully added 31 chunks to SQLite
+[OK] Added 8 instructors to SQLite
+[INFO] SQLite stats:
+  - total_chunks: 31
+  - chunks_by_category: {'curriculum': 13, 'general': 5, 'instructors': 8, 'tools': 5}
+  - total_instructors: 16
+
+Step 5: Testing semantic search...
+----------------------------------------------------------------------
+
+Query: 'What topics are covered in week 1?'
+Top 3 results:
+  1. [curr_week11] (similarity: -0.169)
+     Week 11: Interview Prep: Guesstimates & RCAs
+
+Content: Types of Interviews
+How to classify interview...
+  2. [general_schedule] (similarity: -0.187)
+     Class Schedule:
+Saturday Morning: 10:30 AM - 12:30 PM IST
+Saturday Afternoon: 2:00 PM - 4:00 PM IST
+...
+  3. [curr_week04] (similarity: -0.225)
+     Week 4: UX Design & AI Prototyping
+
+Content: Learn about UX Laws
+How to think about Information arch...
+
+Query: 'Who teaches the AI modules?'
+Top 3 results:
+  1. [inst_04_eshan_tiwari] (similarity: 0.226)
+     Instructor: Eshan Tiwari
+Title: Lead Data Scientist at Meta
+Background: worked at Google in data sci...
+  2. [inst_07_saksham_arora] (similarity: 0.142)
+     Instructor: Saksham Arora
+Title: senior software engineer at Intuit
+Background: a software engineer ...
+  3. [curr_week08] (similarity: -0.006)
+     Week 8: RAGs, Fine Tuning & AI Automations
+
+Content: Embeddings & vector databases
+Chunking & retrie...
+
+Query: 'What is the class schedule on Saturday?'
+Top 3 results:
+  1. [general_schedule] (similarity: 0.414)
+     Class Schedule:
+Saturday Morning: 10:30 AM - 12:30 PM IST
+Saturday Afternoon: 2:00 PM - 4:00 PM IST
+...
+  2. [general_program_details] (similarity: -0.050)
+     Program Details:
+Duration: 100+ hours
+Timeline: 4 months
+Weeks: 16 weeks
+Format: Live online classes...
+  3. [curr_week11] (similarity: -0.501)
+     Week 11: Interview Prep: Guesstimates & RCAs
+
+Content: Types of Interviews
+How to classify interview...
+
+Query: 'How much does the course cost?'
+Top 3 results:
+  1. [general_cost] (similarity: 0.379)
+Traceback (most recent call last):
+  File "C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\scripts\run_phase2.py", line 163, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Asus\OneDrive\Desktop\Nextleap\phase_2\scripts\run_phase2.py", line 136, in main
+    print(f"     {doc_preview}...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 17: character maps to <undefined>

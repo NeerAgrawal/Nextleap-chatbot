@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextleap PM Fellowship Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">NL</div>
+                <div class="logo-text">
+                    <h1>Nextleap</h1>
+                    <p>PM Fellowship Assistant</p>
+                </div>
+            </div>
+            <div class="status" id="status">
+                <span class="status-dot"></span>
+                <span>Ready</span>
+            </div>
+        </header>
+
+        <!-- Chat Container -->
+        <div class="chat-container" id="chatContainer">
+            <!-- Welcome Message -->
+            <div class="welcome-message">
+                <h2>👋 Welcome to Nextleap PM Fellowship Assistant!</h2>
+                <p>Ask me anything about the Product Management Fellowship program.</p>
+                <div class="quick-questions">
+                    <p><strong>Try asking:</strong></p>
+                    <button class="quick-btn" data-query="What topics are covered in week 1?">📚 Week 1 Topics</button>
+                    <button class="quick-btn" data-query="Who teaches the AI modules?">👨‍🏫 AI Instructors</button>
+                    <button class="quick-btn" data-query="What is the class schedule?">📅 Class Schedule</button>
+                    <button class="quick-btn" data-query="How much does the course cost?">💰 Course Fee</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <form id="chatForm">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="queryInput" 
+                        placeholder="Ask a question about the PM Fellowship..."
+                        rows="1"
+                    ></textarea>
+                    <button type="submit" id="sendBtn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <p class="input-hint">Powered by Groq • Press Enter to send</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

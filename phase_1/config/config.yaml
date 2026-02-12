@@ -1,0 +1,18 @@
+scraping:
+  course_url: "https://nextleap.app/course/product-management-course"
+  rate_limit_seconds: 2
+  timeout_seconds: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+parsing:
+  extract_curriculum: true
+  extract_instructors: true
+  extract_tools: true
+  extract_schedule: true
+  extract_testimonials: true
+
+preprocessing:
+  remove_html_tags: true
+  normalize_unicode: true
+  preserve_structure: true
+  extract_metadata: true

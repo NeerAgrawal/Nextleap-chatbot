@@ -1,0 +1,45 @@
+[
+  {
+    "category": "SQL",
+    "tools": [
+      "Figma",
+      "SQL"
+    ]
+  },
+  {
+    "category": "Design",
+    "tools": [
+      "API",
+      "Cursor",
+      "Figma",
+      "GitHub",
+      "GraphQL",
+      "Hotjar",
+      "Microsoft Clarity",
+      "Python",
+      "REST"
+    ]
+  },
+  {
+    "category": "AI Tools",
+    "tools": [
+      "API",
+      "Cursor",
+      "GitHub"
+    ]
+  },
+  {
+    "category": "User Research",
+    "tools": [
+      "Figma"
+    ]
+  },
+  {
+    "category": "Data Analysis",
+    "tools": [
+      "Claude",
+      "Cursor",
+      "GitHub"
+    ]
+  }
+]

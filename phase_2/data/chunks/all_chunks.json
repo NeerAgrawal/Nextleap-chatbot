@@ -1,0 +1,320 @@
+[
+  {
+    "chunk_id": "curr_week01",
+    "content": "Week 1: Mapping Business Outcomes to Product Outcomes\n\nContent: Systems Thinking : understanding actors, flows, bottlenecks\nSystems Thinking Tools: behaviour over time graphs, causal diagrams, iceberg model\nFirst principles thinking: actor, action, entity diagrams\nUnderstanding different types of Business Models\nBuilding KPI Trees for structured problem solving\nHands-on Learning:\nCase on Swiggy Customer Support:\nBuilding a KPI Tree to map business outcomes to product outcomes\n\nHands-on Learning: Case on Swiggy Customer Support:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 1,
+      "title": "Mapping Business Outcomes to Product Outcomes",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week02",
+    "content": "Week 2: Product Discovery & User Research\n\nContent: Impact Mapping to map product outcomes to opportunities\nUser segmentation methodologies\nOpportunity sizing\nUser Research Methodologies\nIdentifying unmet needs and Jobs to be Done framework\nJourney Mapping & their relevance\nBuilding User Personas\nAffinity Mapping to derive insights from user research\nHow to use AI tools for user research\nHands-on Learning:\nCase on an early stage food-tech startup:\nAnalysing a dataset to identify the target user segment and crafting a user research plan\n\nHands-on Learning: Case on an early stage food-tech startup:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 2,
+      "title": "Product Discovery & User Research",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week03",
+    "content": "Week 3: Problem Framing & Ideation\n\nContent: Hypotheses building\nProblem Framing canvas\nMindmapping solutions\nUnderstanding Benefits and constraints for each actor\nUnderstanding product risks\nCrafting User Stories\nUnderstanding Human Motivations to build solutions\nPrioritising between solutions\nUnderstanding how to build user flows and wireframes\nHands-on Learning:\nCase on building a new feature for Spotify:\nBuild an AI assisted prototype using vibe coding tools\n\nHands-on Learning: Case on building a new feature for Spotify:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 3,
+      "title": "Problem Framing & Ideation",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week04",
+    "content": "Week 4: UX Design & AI Prototyping\n\nContent: Learn about UX Laws\nHow to think about Information architecture in UX Design\nHow to design prototypes on Figma\nLearn AI assisted prototyping with vibe coding tools\nSpec driven development with vibe coding tools\nData model driven development with vibe coding tools\nHands-on Learning:\nSQL:\nLearn how to write a data query with SQL\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 4,
+      "title": "UX Design & AI Prototyping",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week05",
+    "content": "Week 5: Product Growth & Metrics\n\nContent: Different stages of the growth cycle\nMinimum viable product (MVP) and Minimum Viable Test (MVT)\n4 Fits of Product Market Fit\nLoops, Funnels and Networks\nProduct Led Growth Strategies\nUnderstanding Acquisition, Activation, Retention, Engagement, Revenue, Referral\nGo to market (GTM) strategies in the AI age\nHow to define metrics\nCustomer Metrics and Business Metrics\nKey Performance Indicators (KPIs) and North Star Metrics\nBuilding a Metrics Tree\nGuardrail Metrics or Key Failure Indicators (KFIs)\nData Analysis techniques: funnel and cohort analysis\nData tracking and instrumentation: events, variables and more\nHands-on Learning:\nSQL:\nWriting complex queries using JOINS\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 5,
+      "title": "Product Growth & Metrics",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week06",
+    "content": "Week 6: Tech 101 & System Design\n\nContent: How the Internet works\nClient-Server models\nDifferent types of databases\nAPIs and their types: REST, SOAP, GraphQL\nSynchronous and asynchronous APIs\nHigh Level System Diagrams\nAI system architectures\nCost vs quality trade-offs in AI products\nUnderstand Version control\nSet up GitHub\nSet up Cursor\nHands-on Learning:\nSQL:\nWriting complex queries using aggregate functions & window functions\nAI Tools:\nGitHub and Cursor setup\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 6,
+      "title": "Tech 101 & System Design",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week07",
+    "content": "Week 7: LLMs & Prompt Engineering\n\nContent: Basics of Machine Learning\nSupervised vs unsupervised learning\nUnderstanding Large Language Models (LLMs) and how they work\nDifference between top LLMs\nAnatomy of a Prompt\nPrompt Engineering techniques\nContext engineering and prompt decay\nSystem prompts, temperature settings and more\nHands-on Learning:\nAI Tools:\nBuild a basic chatbot by integrating with LLM APIs and system prompts\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 7,
+      "title": "LLMs & Prompt Engineering",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week08",
+    "content": "Week 8: RAGs, Fine Tuning & AI Automations\n\nContent: Embeddings & vector databases\nChunking & retrieval techniques\nWorkflow triggers & JSON\nOrchestrating LLM steps\nChaining architecture\nAdding reasoning and memory\nBuilding AI workflows\nHow to fine tune models to add context\nHands-on Learning:\nAI Tools:\nBuild a RAG enabled chatbot for a mutual fund house\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 8,
+      "title": "RAGs, Fine Tuning & AI Automations",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week09",
+    "content": "Week 9: AI Agents & Protocols\n\nContent: What are AI workflows\nDifference between AI workflows and AI agents\nAgent frameworks\nLong term and short term memory\nAgentic AI protocols: MCP vs A2A\nMulti-agent systems\nAgent performance\nHands-on Learning:\nAI Tools:\nBuilding an AI workflow automation to analyse competitor ads data\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 9,
+      "title": "AI Agents & Protocols",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week10",
+    "content": "Week 10: AI Output Evaluation\n\nContent: Failure modes & bias\nEval rubrics & metrics\nGolden sets & A/B tests\nLLM-as-judge limits\nHands-on Learning:\nAI Tools:\nBuilding an AI agent for a mutual fund house.\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 10,
+      "title": "AI Output Evaluation",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week11",
+    "content": "Week 11: Interview Prep: Guesstimates & RCAs\n\nContent: Types of Interviews\nHow to classify interview questions\nLearn how to ask Clarifying questions during interviews\nUnderstand how to approach Guesstimates questions\nMaster strategies to answer Root Cause Analysis (RCAs) questions\nInterview Rubric for Guesstimates & RCAs\nHands-on Learning:\nMock Interviews with mentors\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 11,
+      "title": "Interview Prep: Guesstimates & RCAs",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week12",
+    "content": "Week 12: Interview Prep: Product Design & Metrics\n\nContent: Learn how to answer Product Design questions\nUnderstand how to answer Metrics Interview questions\nMaster strategies to answer A/B Testing questions\nInterview Rubric for Product Design Questions\nHands-on Learning:\nMock Interviews with mentors\n\nHands-on Learning: Hands-on Learning:",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 12,
+      "title": "Interview Prep: Product Design & Metrics",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "curr_week13",
+    "content": "Week 13: Interview Prep: Strategy & AI Product Sense\n\nContent: Learn how to answer Product strategy questions\nMaster how to answer Pricing & GTM questions\nUnderstand what are AI Product sense questions and how to answer them\nInterview Rubric for AI Product Sense questions\nHands-on Learning:\nMock Interviews with mentors\nWeek 14-16:\nGraduation Project\nContinue to build portfolio\nWork on graduation project\nSubmit graduation project\nHands-on Learning:\nMock Interviews with mentors\nMaster the Tools to become a successful Product Manager\nThe NextLeap Product Manager Fellowship is designed to help you master tools that product managers frequently work with, through hands-on practice. Here are the tools that you will learn to use:\nMicrosoft Clarity & Hotjar:\nFor User Research\nWhimsical:\nFor Mindmaps & KPI Trees\nFigma:\nFor Wireframing & Design\nJIRA:\nFor product roadmapping and execution\nGoogle Analytics:\nFor product analytics\nMicrosoft Excel & SQL:\nFor data analysis\nOpen AI & Claude :\nFor prompt engineering\nN8n & Make:\nFor AI workflows\nLovable:\nFor building\n\nHands-on Learning: to successfully transition into technology careers, thanks to a curriculum rooted in hands-on learning, personalised mentorship from industry leaders, extensive interview practice and a strong focus on job placement.",
+    "metadata": {
+      "source": "phase1_curriculum",
+      "category": "curriculum",
+      "week": 13,
+      "title": "Interview Prep: Strategy & AI Product Sense",
+      "chunk_type": "weekly_content"
+    }
+  },
+  {
+    "chunk_id": "inst_01_arindam_mukherjee",
+    "content": "Instructor: Arindam Mukherjee\nTitle: co-founder of NextLeap and was previously the head of consumer product and growth at Flipkart\nBackground: the head of consumer product and growth at Flipkart for almost 7 years\nTeaches: curriculum in the first 3 weeks",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Arindam Mukherjee",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_02_karthi_subbaraman",
+    "content": "Instructor: Karthi Subbaraman\nTitle: design team at ServiceNow\nBackground: worked at Microsoft and Salesforce as part of the design leadership team\nTeaches: user research module",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Karthi Subbaraman",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_03_prashanth_bhaskaran",
+    "content": "Instructor: Prashanth Bhaskaran\nTitle: product lead at Uber\nBackground: leading the data platform product at CRED\nTeaches: Interview Prep module",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Prashanth Bhaskaran",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_04_eshan_tiwari",
+    "content": "Instructor: Eshan Tiwari\nTitle: Lead Data Scientist at Meta\nBackground: worked at Google in data science roles\nTeaches: modules on AI",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Eshan Tiwari",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_05_kartik_singh",
+    "content": "Instructor: Kartik Singh\nTitle: senior product designer at Microsoft\nTeaches: Wireframing & UX Foundations modules",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Kartik Singh",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_06_devansh",
+    "content": "Instructor: Devansh\nTitle: Product Lead at Jiostar\nBackground: a Product Manager at Flipkart\nTeaches: Metrics module and the case hour sessions",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Devansh",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_07_saksham_arora",
+    "content": "Instructor: Saksham Arora\nTitle: senior software engineer at Intuit\nBackground: a software engineer at Microsoft\nTeaches: technology foundations module and how to build products with AI tools like Cursor",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Saksham Arora",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "inst_08_shailesh_sharma",
+    "content": "Instructor: Shailesh Sharma\nTitle: Senior Product Manager at Myntra\nTeaches: Interview Prep modules",
+    "metadata": {
+      "source": "phase1_instructors",
+      "category": "instructors",
+      "instructor_name": "Shailesh Sharma",
+      "chunk_type": "instructor_profile"
+    }
+  },
+  {
+    "chunk_id": "tools_sql",
+    "content": "Tools Category: SQL\nTools: Figma, SQL",
+    "metadata": {
+      "source": "phase1_tools",
+      "category": "tools",
+      "tool_category": "SQL",
+      "chunk_type": "tools_category"
+    }
+  },
+  {
+    "chunk_id": "tools_design",
+    "content": "Tools Category: Design\nTools: API, Cursor, Figma, GitHub, GraphQL, Hotjar, Microsoft Clarity, Python, REST",
+    "metadata": {
+      "source": "phase1_tools",
+      "category": "tools",
+      "tool_category": "Design",
+      "chunk_type": "tools_category"
+    }
+  },
+  {
+    "chunk_id": "tools_ai_tools",
+    "content": "Tools Category: AI Tools\nTools: API, Cursor, GitHub",
+    "metadata": {
+      "source": "phase1_tools",
+      "category": "tools",
+      "tool_category": "AI Tools",
+      "chunk_type": "tools_category"
+    }
+  },
+  {
+    "chunk_id": "tools_user_research",
+    "content": "Tools Category: User Research\nTools: Figma",
+    "metadata": {
+      "source": "phase1_tools",
+      "category": "tools",
+      "tool_category": "User Research",
+      "chunk_type": "tools_category"
+    }
+  },
+  {
+    "chunk_id": "tools_data_analysis",
+    "content": "Tools Category: Data Analysis\nTools: Claude, Cursor, GitHub",
+    "metadata": {
+      "source": "phase1_tools",
+      "category": "tools",
+      "tool_category": "Data Analysis",
+      "chunk_type": "tools_category"
+    }
+  },
+  {
+    "chunk_id": "general_program_details",
+    "content": "Program Details:\nDuration: 100+ hours\nTimeline: 4 months\nWeeks: 16 weeks\nFormat: Live online classes",
+    "metadata": {
+      "source": "phase1_general_info",
+      "category": "general",
+      "chunk_type": "program_details"
+    }
+  },
+  {
+    "chunk_id": "general_schedule",
+    "content": "Class Schedule:\nSaturday Morning: 10:30 AM - 12:30 PM IST\nSaturday Afternoon: 2:00 PM - 4:00 PM IST\nSunday Mentor Session: 10:30 AM - 12:30 PM IST\nSunday Case Hours: 2:00 PM - 4:00 PM IST\nWednesday Product Challenge: 8:00 PM - 10:00 PM IST",
+    "metadata": {
+      "source": "phase1_general_info",
+      "category": "general",
+      "chunk_type": "schedule"
+    }
+  },
+  {
+    "chunk_id": "general_cost",
+    "content": "Course Fee: ₹35,999",
+    "metadata": {
+      "source": "phase1_general_info",
+      "category": "general",
+      "chunk_type": "cost"
+    }
+  },
+  {
+    "chunk_id": "general_cohort",
+    "content": "Cohort Information:\nCohort Number: 47\nStart Date: Mar 7",
+    "metadata": {
+      "source": "phase1_general_info",
+      "category": "general",
+      "chunk_type": "cohort"
+    }
+  },
+  {
+    "chunk_id": "general_support",
+    "content": "Support Services:\nMentorship: Experienced PMs from top companies\nPlacement Support: 1 year placement support",
+    "metadata": {
+      "source": "phase1_general_info",
+      "category": "general",
+      "chunk_type": "support"
+    }
+  }
+]

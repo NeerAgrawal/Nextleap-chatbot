@@ -1,0 +1,31 @@
+{
+  "phase": "Phase 1",
+  "started_at": "2026-02-12T19:39:28.111110",
+  "steps": [
+    {
+      "step": "scraping",
+      "status": "success"
+    },
+    {
+      "step": "curriculum_parsing",
+      "status": "success",
+      "weeks_found": 13
+    },
+    {
+      "step": "instructor_parsing",
+      "status": "success",
+      "instructors_found": 8
+    },
+    {
+      "step": "tools_parsing",
+      "status": "success",
+      "categories_found": 5
+    },
+    {
+      "step": "general_parsing",
+      "status": "success"
+    }
+  ],
+  "completed_at": "2026-02-12T19:39:28.726166",
+  "status": "success"
+}

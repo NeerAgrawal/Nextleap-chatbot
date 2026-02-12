@@ -1,0 +1,96 @@
+{
+  "total_weeks": 13,
+  "weeks": [
+    {
+      "week_number": 1,
+      "title": "Mapping Business Outcomes to Product Outcomes",
+      "topics": [],
+      "hands_on_learning": "Case on Swiggy Customer Support:",
+      "content": "Systems Thinking : understanding actors, flows, bottlenecks\nSystems Thinking Tools: behaviour over time graphs, causal diagrams, iceberg model\nFirst principles thinking: actor, action, entity diagrams\nUnderstanding different types of Business Models\nBuilding KPI Trees for structured problem solving\nHands-on Learning:\nCase on Swiggy Customer Support:\nBuilding a KPI Tree to map business outcomes to product outcomes"
+    },
+    {
+      "week_number": 2,
+      "title": "Product Discovery & User Research",
+      "topics": [],
+      "hands_on_learning": "Case on an early stage food-tech startup:",
+      "content": "Impact Mapping to map product outcomes to opportunities\nUser segmentation methodologies\nOpportunity sizing\nUser Research Methodologies\nIdentifying unmet needs and Jobs to be Done framework\nJourney Mapping & their relevance\nBuilding User Personas\nAffinity Mapping to derive insights from user research\nHow to use AI tools for user research\nHands-on Learning:\nCase on an early stage food-tech startup:\nAnalysing a dataset to identify the target user segment and crafting a user research plan"
+    },
+    {
+      "week_number": 3,
+      "title": "Problem Framing & Ideation",
+      "topics": [],
+      "hands_on_learning": "Case on building a new feature for Spotify:",
+      "content": "Hypotheses building\nProblem Framing canvas\nMindmapping solutions\nUnderstanding Benefits and constraints for each actor\nUnderstanding product risks\nCrafting User Stories\nUnderstanding Human Motivations to build solutions\nPrioritising between solutions\nUnderstanding how to build user flows and wireframes\nHands-on Learning:\nCase on building a new feature for Spotify:\nBuild an AI assisted prototype using vibe coding tools"
+    },
+    {
+      "week_number": 4,
+      "title": "UX Design & AI Prototyping",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Learn about UX Laws\nHow to think about Information architecture in UX Design\nHow to design prototypes on Figma\nLearn AI assisted prototyping with vibe coding tools\nSpec driven development with vibe coding tools\nData model driven development with vibe coding tools\nHands-on Learning:\nSQL:\nLearn how to write a data query with SQL"
+    },
+    {
+      "week_number": 5,
+      "title": "Product Growth & Metrics",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Different stages of the growth cycle\nMinimum viable product (MVP) and Minimum Viable Test (MVT)\n4 Fits of Product Market Fit\nLoops, Funnels and Networks\nProduct Led Growth Strategies\nUnderstanding Acquisition, Activation, Retention, Engagement, Revenue, Referral\nGo to market (GTM) strategies in the AI age\nHow to define metrics\nCustomer Metrics and Business Metrics\nKey Performance Indicators (KPIs) and North Star Metrics\nBuilding a Metrics Tree\nGuardrail Metrics or Key Failure Indicators (KFIs)\nData Analysis techniques: funnel and cohort analysis\nData tracking and instrumentation: events, variables and more\nHands-on Learning:\nSQL:\nWriting complex queries using JOINS"
+    },
+    {
+      "week_number": 6,
+      "title": "Tech 101 & System Design",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "How the Internet works\nClient-Server models\nDifferent types of databases\nAPIs and their types: REST, SOAP, GraphQL\nSynchronous and asynchronous APIs\nHigh Level System Diagrams\nAI system architectures\nCost vs quality trade-offs in AI products\nUnderstand Version control\nSet up GitHub\nSet up Cursor\nHands-on Learning:\nSQL:\nWriting complex queries using aggregate functions & window functions\nAI Tools:\nGitHub and Cursor setup"
+    },
+    {
+      "week_number": 7,
+      "title": "LLMs & Prompt Engineering",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Basics of Machine Learning\nSupervised vs unsupervised learning\nUnderstanding Large Language Models (LLMs) and how they work\nDifference between top LLMs\nAnatomy of a Prompt\nPrompt Engineering techniques\nContext engineering and prompt decay\nSystem prompts, temperature settings and more\nHands-on Learning:\nAI Tools:\nBuild a basic chatbot by integrating with LLM APIs and system prompts"
+    },
+    {
+      "week_number": 8,
+      "title": "RAGs, Fine Tuning & AI Automations",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Embeddings & vector databases\nChunking & retrieval techniques\nWorkflow triggers & JSON\nOrchestrating LLM steps\nChaining architecture\nAdding reasoning and memory\nBuilding AI workflows\nHow to fine tune models to add context\nHands-on Learning:\nAI Tools:\nBuild a RAG enabled chatbot for a mutual fund house"
+    },
+    {
+      "week_number": 9,
+      "title": "AI Agents & Protocols",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "What are AI workflows\nDifference between AI workflows and AI agents\nAgent frameworks\nLong term and short term memory\nAgentic AI protocols: MCP vs A2A\nMulti-agent systems\nAgent performance\nHands-on Learning:\nAI Tools:\nBuilding an AI workflow automation to analyse competitor ads data"
+    },
+    {
+      "week_number": 10,
+      "title": "AI Output Evaluation",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Failure modes & bias\nEval rubrics & metrics\nGolden sets & A/B tests\nLLM-as-judge limits\nHands-on Learning:\nAI Tools:\nBuilding an AI agent for a mutual fund house."
+    },
+    {
+      "week_number": 11,
+      "title": "Interview Prep: Guesstimates & RCAs",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Types of Interviews\nHow to classify interview questions\nLearn how to ask Clarifying questions during interviews\nUnderstand how to approach Guesstimates questions\nMaster strategies to answer Root Cause Analysis (RCAs) questions\nInterview Rubric for Guesstimates & RCAs\nHands-on Learning:\nMock Interviews with mentors"
+    },
+    {
+      "week_number": 12,
+      "title": "Interview Prep: Product Design & Metrics",
+      "topics": [],
+      "hands_on_learning": "Hands-on Learning:",
+      "content": "Learn how to answer Product Design questions\nUnderstand how to answer Metrics Interview questions\nMaster strategies to answer A/B Testing questions\nInterview Rubric for Product Design Questions\nHands-on Learning:\nMock Interviews with mentors"
+    },
+    {
+      "week_number": 13,
+      "title": "Interview Prep: Strategy & AI Product Sense",
+      "topics": [],
+      "hands_on_learning": "to successfully transition into technology careers, thanks to a curriculum rooted in hands-on learning, personalised mentorship from industry leaders, extensive interview practice and a strong focus on job placement.",
+      "content": "Learn how to answer Product strategy questions\nMaster how to answer Pricing & GTM questions\nUnderstand what are AI Product sense questions and how to answer them\nInterview Rubric for AI Product Sense questions\nHands-on Learning:\nMock Interviews with mentors\nWeek 14-16:\nGraduation Project\nContinue to build portfolio\nWork on graduation project\nSubmit graduation project\nHands-on Learning:\nMock Interviews with mentors\nMaster the Tools to become a successful Product Manager\nThe NextLeap Product Manager Fellowship is designed to help you master tools that product managers frequently work with, through hands-on practice. Here are the tools that you will learn to use:\nMicrosoft Clarity & Hotjar:\nFor User Research\nWhimsical:\nFor Mindmaps & KPI Trees\nFigma:\nFor Wireframing & Design\nJIRA:\nFor product roadmapping and execution\nGoogle Analytics:\nFor product analytics\nMicrosoft Excel & SQL:\nFor data analysis\nOpen AI & Claude :\nFor prompt engineering\nN8n & Make:\nFor AI workflows\nLovable:\nFor building"
+    }
+  ]
+}

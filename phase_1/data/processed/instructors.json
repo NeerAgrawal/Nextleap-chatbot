@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Arindam Mukherjee",
+    "title": "co-founder of NextLeap and was previously the head of consumer product and growth at Flipkart",
+    "background": "the head of consumer product and growth at Flipkart for almost 7 years",
+    "teaches": "curriculum in the first 3 weeks"
+  },
+  {
+    "name": "Karthi Subbaraman",
+    "title": "design team at ServiceNow",
+    "background": "worked at Microsoft and Salesforce as part of the design leadership team",
+    "teaches": "user research module"
+  },
+  {
+    "name": "Prashanth Bhaskaran",
+    "title": "product lead at Uber",
+    "background": "leading the data platform product at CRED",
+    "teaches": "Interview Prep module"
+  },
+  {
+    "name": "Eshan Tiwari",
+    "title": "Lead Data Scientist at Meta",
+    "background": "worked at Google in data science roles",
+    "teaches": "modules on AI"
+  },
+  {
+    "name": "Kartik Singh",
+    "title": "senior product designer at Microsoft",
+    "background": "",
+    "teaches": "Wireframing & UX Foundations modules"
+  },
+  {
+    "name": "Devansh",
+    "title": "Product Lead at Jiostar",
+    "background": "a Product Manager at Flipkart",
+    "teaches": "Metrics module and the case hour sessions"
+  },
+  {
+    "name": "Saksham Arora",
+    "title": "senior software engineer at Intuit",
+    "background": "a software engineer at Microsoft",
+    "teaches": "technology foundations module and how to build products with AI tools like Cursor"
+  },
+  {
+    "name": "Shailesh Sharma",
+    "title": "Senior Product Manager at Myntra",
+    "background": "",
+    "teaches": "Interview Prep modules"
+  }
+]
